@@ -20,7 +20,7 @@ def scp():
     elems = soup.find_all("a", class_="DY5T1d")
     # print(elems)
     titlelist = []
-    for e in elems:
+    for c in elems:
         # print(e.text)
         # print(type(e.text))
         # print("------------------------")
